@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+  background-color: purple;
+}
+.links{
+  display: flex;
+  gap: 20px;
+}
+.links a{
+  color: white;
+  font-size: 20px;  
+}
+.user{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.user p{
+  color:gold;
+  font-weight: 100;
+  font-size: 30px;
+
+}
+.user img{
+  width: 30px;
+  height: 30px;
+}
+.post_body{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+.post{
+  margin: auto;
+  width: 60%;
+  height: auto;
+  background-color: black;
+  color: white;
+
+}
